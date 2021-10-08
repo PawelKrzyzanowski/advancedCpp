@@ -45,6 +45,16 @@ void nestingFunction(){
     eFunction();
 }
 
+class aClass
+{
+    public:
+        aClass(){
+            char * arrayOfChars = new char[999];
+            delete [] arrayOfChars;
+        }
+
+};
+
 int main(){
     //aFunction(); //The error is not cached, the compiler outs error and terminates the program
     try{
