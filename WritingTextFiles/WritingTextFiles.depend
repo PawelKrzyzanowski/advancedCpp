@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1633810890 source:c:\users\pakrz\onedrive\dokumenty\advanced c++ course\advancedcpp\writingtextfiles\main.cpp
+	<iostream>
+	<fstream>
+
